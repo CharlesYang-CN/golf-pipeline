@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.mp4
+*.avi
+*.mov
+.git/
+.gitattributes
+*.ipynb_checkpoints/
+*.tar.gz
+*.zip
+env_*.yml
+build.sh
+download_models.sh

@@ -1,0 +1,18 @@
+name: env_romp
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - scipy
+  - typing-extensions
+  - pip
+  - cython
+  - pip:
+    - torch==2.5.1
+    - torchvision==0.20.1
+    - opencv-python
+    - lapx
+    - wget
